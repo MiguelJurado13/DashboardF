@@ -1,6 +1,6 @@
 export async function fetchDailyFromBackend(symbol = "AAPL", days = 30) {
   const resp = await fetch(
-    `http://localhost:4000/api/daily/${encodeURIComponent(symbol)}?days=${days}`,
+    `https://dashboardf-lo21.onrender.com/api/daily/${encodeURIComponent(symbol)}?days=${days}`,
     { cache: "no-store" }
   );
 
