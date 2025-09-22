@@ -4,11 +4,6 @@
 # Environment variables
 **/.env
 
-# Cache
-server/cache/
-server/*.json
-client/*.json
-
 # Logs
 **/logs/
 npm-debug.log*
